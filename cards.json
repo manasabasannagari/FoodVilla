@@ -1,0 +1,1891 @@
+[
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "39782",
+    "name": "Idly Dosa for You",
+    "uuid": "94bdc8da-7f66-467c-a3cf-2dc3f49959c4",
+    "city": "3",
+    "area": "Sri Durga Colony",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "erqg3ujdbpd6lr7fjoe9",
+    "cuisines": [
+    "South Indian"
+    ],
+    "tags": [ ],
+    "costForTwo": 15000,
+    "costForTwoString": "₹150 FOR TWO",
+    "deliveryTime": 28,
+    "minDeliveryTime": 28,
+    "maxDeliveryTime": 28,
+    "slaString": "28 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "idly-dosa-for-you-miyapur-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Shop no-7,AKM dharmarao signatures,Deepthi Sree Nagar Rd, Sri Durga Colony, Miyapur, Hyderabad, Telangana 500050",
+    "locality": "Miyapur X roads",
+    "parentId": 6458,
+    "unserviceable": false,
+    "veg": true,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "50% off",
+    "shortDescriptionList": [
+    {
+    "meta": "50% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "50% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5941382~p=1~eid=00000186-7dc2-13c2-27c8-907400860166",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "39782",
+    "deliveryTime": 28,
+    "minDeliveryTime": 28,
+    "maxDeliveryTime": 28,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "3.8",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "56096",
+    "name": "Mehfil",
+    "uuid": "b0d8a5ff-d870-40ce-878d-6cac0a9eee09",
+    "city": "3",
+    "area": "Kukatpally",
+    "totalRatingsString": "10000+ ratings",
+    "cloudinaryImageId": "wfaytngr2fhmdyngai1g",
+    "cuisines": [
+    "Biryani",
+    "North Indian",
+    "Tandoor",
+    "Chinese",
+    "Kebabs"
+    ],
+    "tags": [ ],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 32,
+    "minDeliveryTime": 32,
+    "maxDeliveryTime": 32,
+    "slaString": "32 MINS",
+    "lastMileTravel": 6.300000190734863,
+    "slugs": {
+    "restaurant": "mehfil-restaurant-kukatpally-kukatpally",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Beside More Mega Store, Nizampet Cross Roads,Kukatpally, Hyderabad",
+    "locality": "Nizampet X Road",
+    "parentId": 637,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "10% off",
+    "shortDescriptionList": [
+    {
+    "meta": "10% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "10% off up to ₹40 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "10% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "10% off up to ₹40 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "6.3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "56096",
+    "deliveryTime": 32,
+    "minDeliveryTime": 32,
+    "maxDeliveryTime": 32,
+    "lastMileTravel": 6.300000190734863,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.8",
+    "totalRatings": 10000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "1691",
+    "name": "Chaitanya Food Court",
+    "uuid": "afc579e9-e2b4-4041-b36a-c976c9714752",
+    "city": "3",
+    "area": "Kukatpally",
+    "totalRatingsString": "10000+ ratings",
+    "cloudinaryImageId": "lyzlpgvi7jh12frwvlle",
+    "cuisines": [
+    "Biryani",
+    "Chinese",
+    "Andhra",
+    "North Indian"
+    ],
+    "tags": [ ],
+    "costForTwo": 60000,
+    "costForTwoString": "₹600 FOR TWO",
+    "deliveryTime": 33,
+    "minDeliveryTime": 33,
+    "maxDeliveryTime": 33,
+    "slaString": "33 MINS",
+    "lastMileTravel": 5.800000190734863,
+    "slugs": {
+    "restaurant": "chaitanya-food-court-kukatpally",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Near Malaysian Township Circle,JNTU-Hitech City Road,Kphb Colony",
+    "locality": "Kukatpally",
+    "parentId": 1865,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "50% off",
+    "shortDescriptionList": [
+    {
+    "meta": "50% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "50% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "5.8 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "1691",
+    "deliveryTime": 33,
+    "minDeliveryTime": 33,
+    "maxDeliveryTime": 33,
+    "lastMileTravel": 5.800000190734863,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.0",
+    "totalRatings": 10000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "419885",
+    "name": "Shree Santosh Family Dhaba",
+    "uuid": "bd64e927-9322-46ff-992d-d3bb0bb9df55",
+    "city": "3",
+    "area": "Miyapur",
+    "totalRatingsString": "100+ ratings",
+    "cloudinaryImageId": "bxbztfauxmhqh7evjggd",
+    "cuisines": [
+    "North Indian"
+    ],
+    "tags": [ ],
+    "costForTwo": 35000,
+    "costForTwoString": "₹350 FOR TWO",
+    "deliveryTime": 20,
+    "minDeliveryTime": 20,
+    "maxDeliveryTime": 20,
+    "slaString": "20 MINS",
+    "lastMileTravel": 0.800000011920929,
+    "slugs": {
+    "restaurant": "shree-santosh-family-dhaba-miyapur-miyapur-3",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "H.NO:1-67, RANGAPURAM COLONY, MADINAGUDA, NEAR J P NAGAR X ROAD, MIYAPUR, HYDERABAD.",
+    "locality": "Miyapur",
+    "parentId": 3003,
+    "unserviceable": false,
+    "veg": true,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "50% off",
+    "shortDescriptionList": [
+    {
+    "meta": "50% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "50% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "50% off up to ₹100 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5840820~p=22~eid=00000186-7dc2-13c2-27c8-907b0086167e",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "0.8 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "419885",
+    "deliveryTime": 20,
+    "minDeliveryTime": 20,
+    "maxDeliveryTime": 20,
+    "lastMileTravel": 0.800000011920929,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "3.9",
+    "totalRatings": 100,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "6372",
+    "name": "Raja Rani Ruchulu",
+    "uuid": "c9074b67-f115-4c98-baaf-723b22b66744",
+    "city": "3",
+    "area": "Kukatpally",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "cyg49t7uytu2mhb4hgub",
+    "cuisines": [
+    "Biryani",
+    "Indian",
+    "Chinese",
+    "Tandoor",
+    "North Indian",
+    "Haleem"
+    ],
+    "tags": [ ],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 31,
+    "minDeliveryTime": 31,
+    "maxDeliveryTime": 31,
+    "slaString": "31 MINS",
+    "lastMileTravel": 6.699999809265137,
+    "slugs": {
+    "restaurant": "raja-rani-ruchulu-vivekananda-nagar-kukatpally",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Beside V V Statue, Opposite Ramdevrao Hospital, Vivekananda Nagar, Kukatpally, Hyderabad",
+    "locality": "Vivekananda Nagar",
+    "parentId": 8315,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "20% off",
+    "shortDescriptionList": [
+    {
+    "meta": "20% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "20% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "6.6 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "6372",
+    "deliveryTime": 31,
+    "minDeliveryTime": 31,
+    "maxDeliveryTime": 31,
+    "lastMileTravel": 6.699999809265137,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.0",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "16164",
+    "name": "Lucky Multicuisine Restaurant",
+    "uuid": "8aa8fdd1-c537-4f78-991d-f40029aa30d9",
+    "city": "3",
+    "area": "Kalapuram Basti",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "bv7eioaorni0demvwih4",
+    "cuisines": [
+    "Indian",
+    "Chinese",
+    "Tandoor"
+    ],
+    "tags": [ ],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 23,
+    "minDeliveryTime": 23,
+    "maxDeliveryTime": 23,
+    "slaString": "23 MINS",
+    "lastMileTravel": 2.299999952316284,
+    "slugs": {
+    "restaurant": "lucky-multicuisine-restaurant-bollaram-road-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "2-69 Bollaram Road , Miyapur , Hyderabad",
+    "locality": "Bollaram Road",
+    "parentId": 18963,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "FLAT125 off",
+    "shortDescriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "₹125 OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "2.2 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "16164",
+    "deliveryTime": 23,
+    "minDeliveryTime": 23,
+    "maxDeliveryTime": 23,
+    "lastMileTravel": 2.299999952316284,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.5",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "17467",
+    "name": "Cream Stone Ice Cream",
+    "uuid": "c350d3ff-2762-4684-aedf-bbe91cec191e",
+    "city": "3",
+    "area": "Chanda Nagar",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "em3rj06oro37rdzkwzi7",
+    "cuisines": [
+    "Ice Cream",
+    "Desserts",
+    "Beverages",
+    "Ice Cream Cakes"
+    ],
+    "tags": [ ],
+    "costForTwo": 35000,
+    "costForTwoString": "₹350 FOR TWO",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "slaString": "26 MINS",
+    "lastMileTravel": 3.799999952316284,
+    "slugs": {
+    "restaurant": "cream-stone-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Dr No.2-105,5c United Chambers , Sriram Nagar Colony , Beside Chennai Shopping Mall , Chandanagar",
+    "locality": "Sriram Nagar Colony",
+    "parentId": 289,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "40% off",
+    "shortDescriptionList": [
+    {
+    "meta": "40% off | Use GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "40% off up to ₹100 | Use code GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "40% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "40% off up to ₹100 | Use code GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5820279~p=7~eid=00000186-7dc2-13c2-27c8-907600860740",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "3.7 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "17467",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "lastMileTravel": 3.799999952316284,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "4.3",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "120129",
+    "name": "Shah Ghouse Hotel",
+    "uuid": "a3177899-355f-4109-8a1f-b24b31afbcd8",
+    "city": "3",
+    "area": "Land Mark Residency",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "von4k7mxgbgv0w58apx6",
+    "cuisines": [
+    "Biryani",
+    "North Indian",
+    "Chinese",
+    "Mughlai",
+    "Tandoor"
+    ],
+    "tags": [ ],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "slaString": "30 MINS",
+    "lastMileTravel": 6.900000095367432,
+    "slugs": {
+    "restaurant": "shah-ghouse-hotel-restaurant-kondapur-kondapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "2-25/A, Beside Apollo Hospital, Near Kondapur Kothaguda 'X' Road, Kondapur, Hyderabad",
+    "locality": "Kothaguda 'X' Road",
+    "parentId": 19271,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "10% off",
+    "shortDescriptionList": [
+    {
+    "meta": "10% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "10% off up to ₹40 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "10% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "10% off up to ₹40 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "6.9 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "120129",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "lastMileTravel": 6.900000095367432,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.8",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "8998",
+    "name": "Kritunga Restaurant",
+    "uuid": "f5f1df55-115c-4423-8af6-4eabfa7b4c0d",
+    "city": "3",
+    "area": "Chanda Nagar",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "xna4vrilxkuwarhex7ju",
+    "cuisines": [
+    "Biryani",
+    "Andhra",
+    "Rayalaseema",
+    "South Indian",
+    "North Indian",
+    "Chinese"
+    ],
+    "tags": [ ],
+    "costForTwo": 50000,
+    "costForTwoString": "₹500 FOR TWO",
+    "deliveryTime": 33,
+    "minDeliveryTime": 33,
+    "maxDeliveryTime": 33,
+    "slaString": "33 MINS",
+    "lastMileTravel": 5,
+    "slugs": {
+    "restaurant": "kritunga-restaurant-gouthami-nagar-colony-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Above KFC Main Road ,Chandanagar ,hyderabad",
+    "locality": "Gouthami Nagar Colony",
+    "parentId": 20088,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "20% off",
+    "shortDescriptionList": [
+    {
+    "meta": "20% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "20% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "5 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "8998",
+    "deliveryTime": 33,
+    "minDeliveryTime": 33,
+    "maxDeliveryTime": 33,
+    "lastMileTravel": 5,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.6",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "280578",
+    "name": "Chickpet Donne Biryani House Miyapur",
+    "uuid": "c97cf9d0-77df-46a8-a032-7883a897111d",
+    "city": "3",
+    "area": "Indira Nagar Colony",
+    "totalRatingsString": "500+ ratings",
+    "cloudinaryImageId": "skntt76tb3i57sxl812o",
+    "cuisines": [
+    "Biryani"
+    ],
+    "tags": [ ],
+    "costForTwo": 40000,
+    "costForTwoString": "₹400 FOR TWO",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "slaString": "26 MINS",
+    "lastMileTravel": 2.200000047683716,
+    "slugs": {
+    "restaurant": "chickpet-donne-biryani-house-miyapur-miyapur-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "BMR Complex, Mumbai Hwy, Indira Nagar Colony, Miyapur, Hyderabad, Telangana 500049, India",
+    "locality": "Miyapur",
+    "parentId": 19396,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "20% off",
+    "shortDescriptionList": [
+    {
+    "meta": "20% off | Use PARTY",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off | Use code PARTY",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "20% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use PARTY",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off | Use code PARTY",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5818772~p=10~eid=00000186-7dc2-13c2-27c8-907700860a5a",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "2.2 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "280578",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "lastMileTravel": 2.200000047683716,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "3.8",
+    "totalRatings": 500,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "75942",
+    "name": "Subbayya Gari Hotel",
+    "uuid": "00132634-d2ce-4df3-b77e-80810b811c2d",
+    "city": "3",
+    "area": "Kukatpally",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "brphsgz4dsoubh8y1ivi",
+    "cuisines": [
+    "South Indian",
+    "Andhra",
+    "Sweets"
+    ],
+    "tags": [ ],
+    "costForTwo": 30000,
+    "costForTwoString": "₹300 FOR TWO",
+    "deliveryTime": 31,
+    "minDeliveryTime": 31,
+    "maxDeliveryTime": 31,
+    "slaString": "31 MINS",
+    "lastMileTravel": 6.400000095367432,
+    "slugs": {
+    "restaurant": "subbayya-gari-hotel-kukatpally-kukatpally",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "MIG 295, Sridevi Residency, Road 4, KPHB colony, Kukatpally, Hyderabad",
+    "locality": "kphb colony",
+    "parentId": 12343,
+    "unserviceable": false,
+    "veg": true,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "20% off",
+    "shortDescriptionList": [
+    {
+    "meta": "20% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "20% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "20% off up to ₹50 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "6.4 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "75942",
+    "deliveryTime": 31,
+    "minDeliveryTime": 31,
+    "maxDeliveryTime": 31,
+    "lastMileTravel": 6.400000095367432,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.9",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "50099",
+    "name": "Vasista's Sri Lakshmi",
+    "uuid": "67cb5bab-29c2-43a3-9eed-e1d8f09074e2",
+    "city": "3",
+    "area": "Nizampet",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "fhlawfoalrnoussx2m7t",
+    "cuisines": [
+    "Biryani",
+    "Chinese",
+    "Tandoor",
+    "North Indian",
+    "South Indian"
+    ],
+    "tags": [ ],
+    "costForTwo": 35000,
+    "costForTwoString": "₹350 FOR TWO",
+    "deliveryTime": 29,
+    "minDeliveryTime": 29,
+    "maxDeliveryTime": 29,
+    "slaString": "29 MINS",
+    "lastMileTravel": 4.699999809265137,
+    "slugs": {
+    "restaurant": "vasistas-sri-laxmi-nizampet-kukatpally",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "C S R Bliss,Shop no-1,Nizampet main road,Kukatpally",
+    "locality": "Nizampet main road",
+    "parentId": 387872,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "30% off",
+    "shortDescriptionList": [
+    {
+    "meta": "30% off | Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "30% off up to ₹75 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "30% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "30% off up to ₹75 | Use code TRYNEW",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "4.6 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "50099",
+    "deliveryTime": 29,
+    "minDeliveryTime": 29,
+    "maxDeliveryTime": 29,
+    "lastMileTravel": 4.699999809265137,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "3.9",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "197999",
+    "name": "Asian Meal Box",
+    "uuid": "c83af115-f07b-4966-ba37-43ac797947c7",
+    "city": "3",
+    "area": "Hafeezpet",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "byheqw4vko1sr9tygoqo",
+    "cuisines": [
+    "Chinese",
+    "Asian",
+    "Combo"
+    ],
+    "tags": [ ],
+    "costForTwo": 20000,
+    "costForTwoString": "₹200 FOR TWO",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "slaString": "26 MINS",
+    "lastMileTravel": 2.5999999046325684,
+    "slugs": {
+    "restaurant": "asian-meal-box-kukatpally-kukatpally-2",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "Swiggy Access Kitchen no 1- Myhri nagar coloney, Block-2, Madinaguda village,Serilingampally,Rangareddy dst. Hyderabad telangana",
+    "locality": "Kukatpally",
+    "parentId": 3806,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "FLAT125 off",
+    "shortDescriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "₹125 OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FLAT125 off | Use FLATDEAL",
+    "discountType": "Flat",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5958494~p=13~eid=00000186-7dc2-13c2-27c8-907800860d53",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "2.5 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "197999",
+    "deliveryTime": 26,
+    "minDeliveryTime": 26,
+    "maxDeliveryTime": 26,
+    "lastMileTravel": 2.5999999046325684,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "3.8",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "46881",
+    "name": "Pista House Restaurant & Bakery\t",
+    "uuid": "83bca723-53b9-4e1a-ad05-b98e626d83a1",
+    "city": "3",
+    "area": "Kukatpally",
+    "totalRatingsString": "5000+ ratings",
+    "cloudinaryImageId": "e3r7hfdwz8cwgqi6jfgc",
+    "cuisines": [
+    "Biryani",
+    "North Indian",
+    "Chinese",
+    "Kebabs",
+    "Mughlai",
+    "Tandoor",
+    "Desserts"
+    ],
+    "tags": [ ],
+    "costForTwo": 50000,
+    "costForTwoString": "₹500 FOR TWO",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "slaString": "30 MINS",
+    "lastMileTravel": 4.800000190734863,
+    "slugs": {
+    "restaurant": "pista-house-restaurant-nizampeth-nizampet-pragathi-nagar",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "G 101, Fortune Signature,Opposite More Mega Store, Beside JNTU Metro Station, Kukatpally",
+    "locality": "Opposite More Mega Store",
+    "parentId": 319765,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "40% off",
+    "shortDescriptionList": [
+    {
+    "meta": "40% off | Use GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "40% off up to ₹100 | Use code GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "40% OFF",
+    "shortDescriptionList": [
+    {
+    "meta": "Use GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "40% off up to ₹100 | Use code GUILTFREE",
+    "discountType": "Percentage",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 1,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "4.8 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "46881",
+    "deliveryTime": 30,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 30,
+    "lastMileTravel": 4.800000190734863,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "IT_IS_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": false,
+    "avgRating": "4.0",
+    "totalRatings": 5000,
+    "new": false
+    },
+    "subtype": "basic"
+    },
+    {
+    "type": "restaurant",
+    "data": {
+    "type": "F",
+    "id": "17102",
+    "name": "KFC",
+    "uuid": "a6e8812e-1239-49b7-892d-b698f45fbfc7",
+    "city": "3",
+    "area": "Hafeezpet",
+    "totalRatingsString": "1000+ ratings",
+    "cloudinaryImageId": "bdcd233971b7c81bf77e1fa4471280eb",
+    "cuisines": [
+    "Burgers",
+    "Biryani",
+    "American",
+    "Snacks",
+    "Fast Food"
+    ],
+    "tags": [ ],
+    "costForTwo": 40000,
+    "costForTwoString": "₹400 FOR TWO",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "slaString": "27 MINS",
+    "lastMileTravel": 3,
+    "slugs": {
+    "restaurant": "kfc-miyapur-miyapur",
+    "city": "hyderabad"
+    },
+    "cityState": "3",
+    "address": "KFC RBD Miyapur, Plot 8,9,14 & 15, Survey No: 221 Madinaguda, Beside Vijetha Super Market, Beside Main gate of JanaPriya Appartments, Hyderabad, Telangana - 500049, India.",
+    "locality": "Beside Vijetha Super Market",
+    "parentId": 547,
+    "unserviceable": false,
+    "veg": false,
+    "select": false,
+    "favorite": false,
+    "tradeCampaignHeaders": [ ],
+    "aggregatedDiscountInfo": {
+    "header": "FREE DELIVERY",
+    "shortDescriptionList": [
+    {
+    "meta": "FREE DELIVERY",
+    "discountType": "FREE_DELIVERY",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FREE DELIVERY",
+    "discountType": "FREE_DELIVERY",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "aggregatedDiscountInfoV2": {
+    "header": "",
+    "shortDescriptionList": [
+    {
+    "meta": "Free Delivery",
+    "discountType": "FREE_DELIVERY",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "descriptionList": [
+    {
+    "meta": "FREE DELIVERY",
+    "discountType": "FREE_DELIVERY",
+    "operationType": "RESTAURANT"
+    }
+    ],
+    "subHeader": "",
+    "headerType": 0,
+    "superFreedel": ""
+    },
+    "ribbon": [
+    {
+    "type": "PROMOTED"
+    }
+    ],
+    "chain": [ ],
+    "feeDetails": {
+    "fees": [ ],
+    "totalFees": 0,
+    "message": "",
+    "title": "",
+    "amount": "",
+    "icon": ""
+    },
+    "availability": {
+    "opened": true,
+    "nextOpenMessage": "",
+    "nextCloseMessage": ""
+    },
+    "longDistanceEnabled": 0,
+    "rainMode": "NONE",
+    "thirdPartyAddress": false,
+    "thirdPartyVendor": "",
+    "adTrackingID": "cid=5991578~p=16~eid=00000186-7dc2-13c2-27c8-907900861005",
+    "badges": {
+    "imageBased": [ ],
+    "textBased": [ ],
+    "textExtendedBadges": [ ]
+    },
+    "lastMileTravelString": "3 kms",
+    "hasSurge": false,
+    "sla": {
+    "restaurantId": "17102",
+    "deliveryTime": 27,
+    "minDeliveryTime": 27,
+    "maxDeliveryTime": 27,
+    "lastMileTravel": 3,
+    "lastMileDistance": 0,
+    "serviceability": "SERVICEABLE",
+    "rainMode": "NONE",
+    "longDistance": "NOT_LONG_DISTANCE",
+    "preferentialService": false,
+    "iconType": "EMPTY"
+    },
+    "promoted": true,
+    "avgRating": "3.7",
+    "totalRatings": 1000,
+    "new": false
+    },
+    "subtype": "basic"
+    }
+    ]

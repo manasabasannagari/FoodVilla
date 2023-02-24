@@ -1,62 +1,120 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
+import img from "./assets/app-logo.png";
+import restaurantMockData from './cards.json'
+ /** Header
+            Logo
+            Nav items (Right)
+            Cart
 
-// const root =  ReactDOM.createRoot(document.getElementById('root'));
-// const liElement = React.createElement('li',{},"Apples");
-// const ulElement = React.createElement('ul',{},[
-// liElement,liElement
-// ])
-// const container = React.createElement('div',{},[ulElement]);
-// root.render(container);
-// const container = React.createElement("div",{},[ulElement]);
-// const element = React.createElement("h1",{
-//     name: "heading"
-// },[
-//     React.createElement("span",{
-//         key:'subheading'
-//     },"Sub heading"),
-//     React.createElement("span",{
-//         key:'Menu1'
-//     },"Menu items"),
-//     React.createElement("span",{
-//         key:'Menu2'
-//     },"Menu items"),
-//     React.createElement("span",{
-//         key:'Menu3'
-//     },"Menu items")
-// ]);
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(element)
-    // --------------------JSX----------------------
-//JSX => Java script XML
-//Using the React.createElement, if we need to create huge elements is very tough.
-//JSX can help us to come out of this problem.
+        Body
+            Search
+            Restaurant list 
+                Restautant Card 
+                    Image
+                    Name
+                    Rating
+                    Cusines - North india south indian
+                    Price
+                    Address  
 
-const element = (
+        Footer
+            Locations
+            Links
+            copywrites
+         */ 
+    const Logo = (
+        <a href="/">
+        <img alt="logo" className="logo" src={img}/>
+        </a>
+     )
+const Title = (
     <div>
-<h1 id="title" key="heading">Namaste React</h1>
-</div>
+    <h2 id="title" key="heading">Food Villa</h2>
+    </div>
 );
-            // Above is the JSX
 
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-const BoldText =() =>(
-    <b>Learn in a smarter way</b>
-)
-
-const maliciousData = api.getData()
-
-//Functional component
 const HeaderComponent = () => {
     return (
-    <div>
-    <h1>Namaste React heading</h1>
-    <h2>Namaste React sub heading</h2>
-    {maliciousData}
-    <BoldText/>
+    <div className="header">
+    {Logo}
+    {Title}
+    <div className="nav-items">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Cart</li>
+        </ul>
+    </div>
     </div>
     );
 }
+//config Driven UI
+const config = restaurantMockData;
+// const restaurantList = [{
+//     name: {restaurantMockData[0].data?.name},
+//     image:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wfhgoualaihzkpkimssq",
+//     cusines: {restaurantMockData[0].data?.cuisines},
+//     rating:"4.2"
+// }]
+const RestaurantCard = ({name, avgRating, cuisines, cloudinaryImageId}) => {
+    // const {name, cuisines, cloudinaryImageId, avgRating} = restaurant.data;
+    return (
+        <div className="card">
+            <img src={"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
+        +cloudinaryImageId}/>
+            <h3>{name}</h3>
+            <h4>{cuisines.join(", ")}</h4>
+            <h5>{avgRating} stars</h5>
+        </div>
+    )
+}
+ 
+const BodyComponent = () => {
+return (
+    <div className="main-container">
+    <div className="restaurant-list">
+       {
+        restaurantMockData.map((res)=><RestaurantCard {...res.data}/>)
+       }
+    <RestaurantCard {...restaurantMockData[0].data} hello="world"/>
+    {/* <RestaurantCard {...restaurantMockData[1].data}/>
+    <RestaurantCard {...restaurantMockData[2].data}/>
+    <RestaurantCard {...restaurantMockData[3].data}/>
+    <RestaurantCard {...restaurantMockData[4].data}/>
+    <RestaurantCard {...restaurantMockData[5].data}/>
+    <RestaurantCard {...restaurantMockData[6].data}/>
+    <RestaurantCard {...restaurantMockData[7].data}/>
+    <RestaurantCard {...restaurantMockData[8].data}/>
+    <RestaurantCard {...restaurantMockData[9].data}/>
+    <RestaurantCard {...restaurantMockData[10].data}/>
+    <RestaurantCard {...restaurantMockData[11].data}
+    />
+    <RestaurantCard {...restaurantMockData[12].data}/>
+    <RestaurantCard {...restaurantMockData[13].data}/>
+    <RestaurantCard {...restaurantMockData[14].data}/> */}
 
-root.render(<HeaderComponent/>)
+    </div>
+    </div>
+);
+}
+const FooterComponent = () => {
+    return (<h4>Footer</h4>);
+}
+
+// Firstly build app:
+const AppLayout = () => {
+    return (
+<>
+    
+        <HeaderComponent/>
+        <BodyComponent/>
+        <FooterComponent/>
+    
+</>
+    );
+}
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<AppLayout/>)
