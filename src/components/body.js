@@ -1,12 +1,13 @@
 import { RestaurantCard } from "./restaurant";
 import { useState, useEffect } from "react";
+import {ShimmerUI} from './ShimmerUI';
 function filterData(searchText, list) {
   if (searchText.length > 0) {
     return list.filter((res) => {
       console.log(res.data.name, searchText);
-      return res.data.name.includes(searchText);
+      return res.data.name.toLowerCase().includes(searchText.toLowerCase()) ?? "No result found"
     });
-  } else {
+  } else{
     return list;
   }
 }
@@ -18,7 +19,8 @@ export const BodyComponent = () => {
     second elemnt is the method for modifying value 
     */
   const [searchInput, setSearchInput] = useState("");
-  const [restaurantList, setRestaurantList] = useState("");
+  const [actualRestaurantList, setActualRestaurantList] = useState("");
+  const [filteredRestaurantList, setFilteredRestaurantList] = useState("");
       
     /**Called after the initial page load */
     useEffect(()=>{
@@ -32,9 +34,15 @@ export const BodyComponent = () => {
 async function getRestaurants() {
   const data = await  fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.5071128&lng=78.35791119999999&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
-    setRestaurantList(json?.data?.cards[2]?.data?.data?.cards)
+    setFilteredRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
+    setActualRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
 }
-  return (
+/**
+ * Conditional Rendering:
+ * if restaurantlist is empty ==> shimmer UI
+ * if restaurantList !== empty ==> actual UI
+ */
+  return (actualRestaurantList.length === 0 )? <ShimmerUI/> : (
     <>
       <div className="search-container">
         <input
@@ -50,9 +58,9 @@ async function getRestaurants() {
         className="search-btn"
         onClick={() => {
           /**We need to filter the restro list */
-          const data = filterData(searchInput, restaurantList);
+          const data = filterData(searchInput, actualRestaurantList);
           console.log(data);
-          setRestaurantList(data);
+          setFilteredRestaurantList(data);
         }}
       >
         Search
@@ -60,7 +68,7 @@ async function getRestaurants() {
       <div className="main-container">
         <div className="restaurant-list">
           {
-          restaurantList ? restaurantList.map((res) => (
+          filteredRestaurantList ? filteredRestaurantList.map((res) => (
             <RestaurantCard {...res.data} />
           )): ""}
           {/* <RestaurantCard {...restaurantMockData.data} hello="world"/> */}
