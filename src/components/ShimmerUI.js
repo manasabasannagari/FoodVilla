@@ -1,7 +1,14 @@
 export const ShimmerUI = () =>{
     return (
         <>
-        <h1>Shimmer UI</h1>
+        <div className="main-container">
+            <div className="restaurant-list">
+                {
+                    Array(10).fill("").map((res)=><div className="shimmer-card"></div>)
+                }
+                {/* {"Manasa"} */}
+            </div>
+        </div>
         </>
     );
 };

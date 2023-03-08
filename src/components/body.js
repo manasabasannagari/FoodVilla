@@ -22,12 +22,17 @@ export const BodyComponent = () => {
   const [actualRestaurantList, setActualRestaurantList] = useState("");
   const [filteredRestaurantList, setFilteredRestaurantList] = useState("");
       
-    /**Called after the initial page load */
+    /**Empty dependency -> Called only once after the initial render */
     useEffect(()=>{
         console.log("Use Effect is called...");
         getRestaurants();
-},[]);
+    },[]);
 
+  // /**No dependency array -> Called after every render */
+  //   useEffect(()=>{
+  //       console.log("Use Effect is called...");
+  //       getRestaurants();
+  //   });
 /**
  * get restaurants
  */
