@@ -9,7 +9,7 @@ export const HeaderComponent = () => {
          */
         return true;
     }
-    const [title, setTitle] = useState("Food Villa");
+    const [title, setTitle] = useState("Magic Spaces");
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     return (
     <div className="header">

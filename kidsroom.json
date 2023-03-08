@@ -1,8 +1,5 @@
-{
-    "data": {
-        "designIdeasList": {
-            "total": 770,
-            "designIdeasList": [
+
+            [
                 {
                     "description": "<p><strong>Kids Bedroom Design Details:</strong></p><p><br></p><p><strong>• Style: </strong>Modern</p><p><strong>• Room Dimension: </strong>10x11 feet</p><p><strong>• Furniture Highlights: </strong>Single bed with a walnut finish</p><p><strong>• Wall Features: </strong>Football-themed wallpaper</p><p><strong>• Lighting: </strong>Hanging lights add a bright touch to the kid's room</p><p><strong>• Storage Features: </strong>White wardrobe with ample storage</p><p><strong>• Room Highlights: </strong>Study table and storage shelves ensure maximum storage</p><p><strong>• Ideal for: </strong>Teens</p>",
                     "title": "Modern Kids Room Design With A Wooden Bed And Study Unit",
@@ -437,6 +434,3 @@
                     "redirectedTo": null
                 }
             ]
-        }
-    }
-}

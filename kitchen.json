@@ -1,7 +1,4 @@
-{
-    "data": {
-        "designIdeasCategoryList": {
-            "designIdeasCategoryList": [
+ [
                 {
                     "title": "Scandinavian Interiors",
                     "count": 0,
@@ -453,6 +450,3 @@
                     }
                 }
             ]
-        }
-    }
-}
