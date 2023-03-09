@@ -3,6 +3,12 @@ import ReactDOM  from "react-dom/client";
 import {HeaderComponent} from './components/header';
 import { BodyComponent } from "./components/body";
 import { FooterComponent } from "./components/footer";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import AboutUs from "./components/About";
+import Error from "./components/Error";
+import Contact from "./components/contact";
+import Cart from "./components/cart";
+import RestaurantMenu from "./components/restaurantMenu";
  /** Header
             Logo
             Nav items (Right)
@@ -24,20 +30,44 @@ import { FooterComponent } from "./components/footer";
             Links
             copywrites
          */ 
- 
-
-
-
 // Firstly build app:
 const AppLayout = () => {
     return (
 <>
         <HeaderComponent/>
-        <BodyComponent/>
+        {/* Outlet where I want to fill in different pages */}
+        <Outlet/>
         <FooterComponent/>
 </>
     );
 }
+
+const appRouter = createBrowserRouter([
+    {
+        path:'/',
+        element:<AppLayout/>,
+        errorElement:<Error/>,
+        children:[
+            {
+                path:'',
+                element:<BodyComponent/>
+            },
+            {
+                path:'/about',
+                element:<AboutUs/>
+            },{
+                path:'/contact',
+                element:<Contact/>
+            },{
+                path:'/cart',
+                element:<Cart/>
+            },{
+                path:'/restaurantMenu/:resId',
+                element: <RestaurantMenu/>
+            }
+        ]
+    }
+])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<AppLayout/>)
+root.render(<RouterProvider router={appRouter}/>)

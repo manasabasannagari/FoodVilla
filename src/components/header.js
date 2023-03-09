@@ -1,5 +1,8 @@
 import Logo from './logo';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
+// import { Link} from "react-router-dom";
 export const HeaderComponent = () => {
 
     const authenticateUser = () => {
@@ -19,10 +22,11 @@ export const HeaderComponent = () => {
     </div>
     <div className="nav-items">
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Cart</li>
+            <Link to='/about'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/cart'>Cart</Link>
+        
         </ul>
     </div>
     {

@@ -1,6 +1,7 @@
 import { RestaurantCard } from "./restaurant";
 import { useState, useEffect } from "react";
 import {ShimmerUI} from './ShimmerUI';
+import { Link } from "react-router-dom";
 function filterData(searchText, list) {
   if (searchText.length > 0) {
     return list.filter((res) => {
@@ -73,9 +74,14 @@ async function getRestaurants() {
       <div className="main-container">
         <div className="restaurant-list">
           {
-          filteredRestaurantList ? filteredRestaurantList.map((res) => (
-            <RestaurantCard {...res.data} />
-          )): ""}
+          filteredRestaurantList ? filteredRestaurantList.map((res) => {
+            return (
+              <Link to={"/restaurantMenu/"+res.data.id} key={res.data.id}>
+                <RestaurantCard {...res.data} />
+              </Link>
+            );
+          }
+          ): ""}
           {/* <RestaurantCard {...restaurantMockData.data} hello="world"/> */}
         </div>
       </div>
