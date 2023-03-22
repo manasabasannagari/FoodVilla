@@ -9,6 +9,7 @@ import Error from "./components/Error";
 import Contact from "./components/contact";
 import Cart from "./components/cart";
 import RestaurantMenu from "./components/restaurantMenu";
+import Profile from "./components/ProfileClass";
  /** Header
             Logo
             Nav items (Right)
@@ -53,10 +54,14 @@ const appRouter = createBrowserRouter([
                 element:<BodyComponent/>
             },
             {
-                path:'/about',
-                element:<AboutUs/>
+                path:'/about',             // localhost:1234/about, here / or without / works
+                element:<AboutUs/>,
+                children:[{
+                    path:'profile',     // localhost:1234/about/profile  : Its relative path don't give slash
+                    element:<Profile/>
+                }]
             },{
-                path:'/contact',
+                path:'/contact',      // localhost:1234/contact
                 element:<Contact/>
             },{
                 path:'/cart',
