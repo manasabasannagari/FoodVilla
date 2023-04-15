@@ -1,7 +1,7 @@
 import Logo from './logo';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import useOnline from '../utils/useOnline.js';
 // import { Link} from "react-router-dom";
 export const HeaderComponent = () => {
 
@@ -14,6 +14,7 @@ export const HeaderComponent = () => {
     }
     const [title, setTitle] = useState("Food Villa");
     const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const isOnline = useOnline();
     return (
     <div className="header">
     {Logo}
@@ -26,9 +27,11 @@ export const HeaderComponent = () => {
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contact</Link>
             <Link to='/cart'>Cart</Link>
+            <Link to='/instamart'>Instamart</Link>
         
         </ul>
     </div>
+    {isOnline ? 'Online💚':'Away❤️'}
     {
         isLoggedIn ?  <button onClick={()=>setIsLoggedIn(true)}>Login</button>: <button onClick={()=>setIsLoggedIn(true)}>logout</button>
     }

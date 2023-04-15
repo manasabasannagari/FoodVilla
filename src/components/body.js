@@ -2,17 +2,8 @@ import { RestaurantCard } from "./restaurant";
 import { useState, useEffect } from "react";
 import {ShimmerUI} from './ShimmerUI';
 import { Link } from "react-router-dom";
-function filterData(searchText, list) {
-  if (searchText.length > 0) {
-    return list.filter((res) => {
-      console.log(res.data.name, searchText);
-      return res.data.name.toLowerCase().includes(searchText.toLowerCase()) ?? "No result found"
-    });
-  } else{
-    return list;
-  }
-}
-
+import { filterData } from "../utils/helper";
+import useOnline from "../utils/useOnline";
 export const BodyComponent = () => {
   /*searchInput is the LOCAL STATE VARIABLE
     We can have a hardcoded value within the useState arguments.
@@ -42,6 +33,11 @@ async function getRestaurants() {
     const json = await data.json();
     setFilteredRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
     setActualRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
+}
+
+const isonline = useOnline();
+if(!isonline){
+  return <h1>Offfline, check your internet connection</h1>
 }
 /**
  * Conditional Rendering:

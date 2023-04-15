@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM  from "react-dom/client";
 import {HeaderComponent} from './components/header';
 import { BodyComponent } from "./components/body";
@@ -10,6 +10,10 @@ import Contact from "./components/contact";
 import Cart from "./components/cart";
 import RestaurantMenu from "./components/restaurantMenu";
 import Profile from "./components/ProfileClass";
+import { ShimmerUI } from "./components/ShimmerUI";
+//Importing insta mart in a single bundle:
+// import InstaMart from "./components/instamart";
+
  /** Header
             Logo
             Nav items (Right)
@@ -32,6 +36,9 @@ import Profile from "./components/ProfileClass";
             copywrites
          */ 
 // Firstly build app:
+
+//importing instamart in a lazy way
+const InstaMart = lazy(()=>import("./components/instamart"));
 const AppLayout = () => {
     return (
 <>
@@ -69,6 +76,12 @@ const appRouter = createBrowserRouter([
             },{
                 path:'/restaurantMenu/:resId',
                 element: <RestaurantMenu/>
+            }
+            ,{
+                path:'/instamart',
+                element:<Suspense fallback={<ShimmerUI/>}>
+                          <InstaMart/>
+                        </Suspense>
             }
         ]
     }
