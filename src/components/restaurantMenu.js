@@ -7,6 +7,7 @@ import useRestaurant from "../utils/useRestaurant";
 const RestaurantMenu = () => {
     /**How to read a dynamic url params... */
     const {resId} = useParams();
+    /**Moved the fetching data logic into custom hook */
     const restaurant = useRestaurant(resId);
   
     if(!restaurant){return}

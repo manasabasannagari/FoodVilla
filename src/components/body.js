@@ -4,7 +4,12 @@ import {ShimmerUI} from './ShimmerUI';
 import { Link } from "react-router-dom";
 import { filterData } from "../utils/helper";
 import useOnline from "../utils/useOnline";
-export const BodyComponent = () => {
+// import UserContext from '../utils/UserContext'
+// import * as React from 'react'
+// const {user} = React.useContext(UserContext);
+const buttonStyle = {background:"green"}
+
+export const BodyComponent = (users) => {
   /*searchInput is the LOCAL STATE VARIABLE
     We can have a hardcoded value within the useState arguments.
     useState returns the array, first element in the array is the variable name.
@@ -46,18 +51,16 @@ if(!isonline){
  */
   return (actualRestaurantList.length === 0 )? <ShimmerUI/> : (
     <>
-      <div className="search-container">
+      <div className="p-2 bg-pink-50 my-2 rounded ">
         <input
           type="text"
-          className="search-input"
+          className="focus:bg-green-500"
           placeholder="Search"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
-      </div>
-
-      <button
-        className="search-btn"
+        <button
+        className="p-2 m-2 bg-purple-300 hover:bg-purple-600 text-white rounded"
         onClick={() => {
           /**We need to filter the restro list */
           const data = filterData(searchInput, actualRestaurantList);
@@ -67,8 +70,12 @@ if(!isonline){
       >
         Search
       </button>
+      {/* <input value={user.name}></input> */}
+      </div>
+
+      
       <div className="main-container">
-        <div className="restaurant-list">
+        <div className="flex flex-wrap">
           {
           filteredRestaurantList ? filteredRestaurantList.map((res) => {
             return (
