@@ -36,8 +36,8 @@ export const BodyComponent = (users) => {
 async function getRestaurants() {
   const data = await  fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.5071128&lng=78.35791119999999&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
-    setFilteredRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
-    setActualRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
+    setFilteredRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setActualRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle?.restaurants);
 }
 
 const isonline = useOnline();
@@ -64,7 +64,7 @@ if(!isonline){
         onClick={() => {
           /**We need to filter the restro list */
           const data = filterData(searchInput, actualRestaurantList);
-          console.log(data);
+          // console.log(data);
           setFilteredRestaurantList(data);
         }}
       >
@@ -79,8 +79,8 @@ if(!isonline){
           {
           filteredRestaurantList ? filteredRestaurantList.map((res) => {
             return (
-              <Link to={"/restaurantMenu/"+res.data.id} key={res.data.id}>
-                <RestaurantCard {...res.data} />
+              <Link to={"/restaurantMenu/"+res.info.id} key={res.info.id}>
+                <RestaurantCard {...res.info} />
               </Link>
             );
           }

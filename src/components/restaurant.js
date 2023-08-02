@@ -11,8 +11,11 @@
 //     )
 // }
 import { IMG_CDN_URL } from "../config"
-// import UserContext from '../utils/UserContext';
+
 export const RestaurantCard = (restaurant) => {
+
+
+
     const {name, cuisines, cloudinaryImageId, avgRating} = restaurant;
     // const user = useContext(UserContext);
     return (
