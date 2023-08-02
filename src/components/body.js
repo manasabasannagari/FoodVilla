@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function filterData(searchText, list) {
   if (searchText.length > 0) {
     return list.filter((res) => {
-      console.log(res.data.name, searchText);
+      // console.log(res.data.name, searchText);
       return res.data.name.toLowerCase().includes(searchText.toLowerCase()) ?? "No result found"
     });
   } else{
@@ -40,8 +40,8 @@ export const BodyComponent = () => {
 async function getRestaurants() {
   const data = await  fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.5071128&lng=78.35791119999999&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
-    setFilteredRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
-    setActualRestaurantList(json?.data?.cards[2]?.data?.data?.cards);
+    setFilteredRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle.restaurants);
+    setActualRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle.restaurants);
 }
 /**
  * Conditional Rendering:
@@ -76,8 +76,8 @@ async function getRestaurants() {
           {
           filteredRestaurantList ? filteredRestaurantList.map((res) => {
             return (
-              <Link to={"/restaurantMenu/"+res.data.id} key={res.data.id}>
-                <RestaurantCard {...res.data} />
+              <Link to={"/restaurantMenu/"+res?.info?.id} key={res.info.id}>
+                <RestaurantCard {...res?.info} />
               </Link>
             );
           }
