@@ -2,6 +2,12 @@ import { RestaurantCard } from "./restaurant";
 import { useState, useEffect } from "react";
 import {ShimmerUI} from './ShimmerUI';
 import { Link } from "react-router-dom";
+import { filterData } from "../utils/helper";
+import useOnline from "../utils/useOnline";
+// import UserContext from '../utils/UserContext'
+// import * as React from 'react'
+// const {user} = React.useContext(UserContext);
+const buttonStyle = {background:"green"}
 function filterData(searchText, list) {
   if (searchText.length > 0) {
     return list.filter((res) => {
@@ -13,7 +19,7 @@ function filterData(searchText, list) {
   }
 }
 
-export const BodyComponent = () => {
+export const BodyComponent = (users) => {
   /*searchInput is the LOCAL STATE VARIABLE
     We can have a hardcoded value within the useState arguments.
     useState returns the array, first element in the array is the variable name.
@@ -43,6 +49,16 @@ async function getRestaurants() {
     setFilteredRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle.restaurants);
     setActualRestaurantList(json?.data?.cards[2].card?.card?.gridElements?.infoWithStyle.restaurants);
 }
+
+const isonline = useOnline();
+if(!isonline){
+  return <h1>Offfline, check your internet connection</h1>
+}
+
+const isonline = useOnline();
+if(!isonline){
+  return <h1>Offfline, check your internet connection</h1>
+}
 /**
  * Conditional Rendering:
  * if restaurantlist is empty ==> shimmer UI
@@ -50,18 +66,16 @@ async function getRestaurants() {
  */
   return (actualRestaurantList.length === 0 )? <ShimmerUI/> : (
     <>
-      <div className="search-container">
+      <div className="p-2 bg-pink-50 my-2 rounded ">
         <input
           type="text"
-          className="search-input"
+          className="focus:bg-green-500"
           placeholder="Search"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
-      </div>
-
-      <button
-        className="search-btn"
+        <button
+        className="p-2 m-2 bg-purple-300 hover:bg-purple-600 text-white rounded"
         onClick={() => {
           /**We need to filter the restro list */
           const data = filterData(searchInput, actualRestaurantList);
@@ -71,8 +85,12 @@ async function getRestaurants() {
       >
         Search
       </button>
+      {/* <input value={user.name}></input> */}
+      </div>
+
+      
       <div className="main-container">
-        <div className="restaurant-list">
+        <div className="flex flex-wrap">
           {
           filteredRestaurantList ? filteredRestaurantList.map((res) => {
             return (
