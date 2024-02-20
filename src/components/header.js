@@ -3,8 +3,12 @@ import { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import useOnline from '../utils/useOnline.js';
 import UserContext from '../utils/UserContext'
+import { useSelector } from 'react-redux';
+import {store} from './../utils/store';
 // import { Link} from "react-router-dom";
 export const HeaderComponent = () => {
+
+    const cartItems = useSelector(store => store.cart.items);
 
     const authenticateUser = () => {
         /**
@@ -28,10 +32,9 @@ export const HeaderComponent = () => {
         <ul className="flex py-10 ">
             <Link  className="px-2 text-blue-600 visited:text-purple-600" to='/'>Home</Link>
             <Link className="px-2 text-blue-600 visited:text-purple-600" to='/about'>About</Link>
-            <Link className="px-2 text-blue-600 visited:text-purple-600" to='/contact'>Contact</Link>
-            <Link className="px-2 text-blue-600 visited:text-purple-600" to='/cart'>Cart</Link>
+            <Link className="px-2 text-blue-600 visited:text-purple-600" to='/contact'>Contact</Link>       
             <Link className="px-2  text-blue-600 visited:text-purple-600" to='/instamart'>Instamart</Link>
-        
+            <Link className="px-2 text-blue-600 visited:text-purple-600" to='/cart'>Cart - {cartItems.length}</Link>
         </ul>
     </div>
    

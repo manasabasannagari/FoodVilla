@@ -11,7 +11,9 @@ import Cart from "./components/cart";
 import RestaurantMenu from "./components/restaurantMenu";
 import Profile from "./components/ProfileClass";
 import { ShimmerUI } from "./components/ShimmerUI";
-import UserContext from './utils/UserContext'
+import UserContext from './utils/UserContext';
+import { Provider } from "react-redux";
+import store from './utils/store';
 //Importing insta mart in a single bundle:
 // import InstaMart from "./components/instamart";
 
@@ -57,7 +59,7 @@ const AppLayout = () => {
 // },[])
 
     return (
-<>
+<Provider store = {store}>
     <UserContext.Provider
         value = {{
             user: user,
@@ -69,7 +71,7 @@ const AppLayout = () => {
         <Outlet/>
         <FooterComponent/>
     </UserContext.Provider>
-</>
+</Provider>
     );
 }
 
